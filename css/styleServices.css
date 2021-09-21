@@ -1,0 +1,25 @@
+footer{
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: blue;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+img{
+    border: 2px solid red;
+    height: 500px;
+    width: 100%;
+}
+h1{
+    margin: 25px 20px 25px 20px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    border: 2px solid red;
+    background-color: pink;
+    font-size: 30px;
+}

@@ -1,0 +1,145 @@
+*{
+    font-family: 'Rubik', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    margin: 20px 0px 20px 0px;
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-image: url('file:///G:/Complete%20Web%20Development%20Bootcamp/Jewellery%20Website/public_html/img4.jpg.jpg');
+}
+marquee{
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    font-size: 30px;
+    color: black;
+    border: 2px solid red;
+    background-color: pink;
+}
+.navsection{
+    width: 100%; height: 10vh; background-color: pink;
+    display: flex; justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    margin: 20px 0px 20px 0px;
+    font-size: 30px;
+}
+.logo{
+    width: 40%;
+    color: #fff;
+    background-image: linear-gradient(#8d98e3 40%, #854fee 60%);
+    padding-left: 100px;
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+.logo h1{
+    color: black;
+    text-transform: uppercase;
+    font-size: 30px;
+    animation: aagepiche 2s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes aagepiche{
+    from{ padding-left: 40px; }
+    to { padding-right: 40px }
+}
+nav{
+    width: 60%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 900;
+    font-size: 30px;
+    position: relative;
+}
+nav a:first-child{
+    color: #4458dc;
+}
+nav a:before{
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    border-bottom:2px solid #4458dc;
+    transition: all 0.4s linear;
+}
+nav a:hover:before{
+width: 100%;
+}
+main{
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.leftside{
+    color: #000;
+    text-transform: uppercase;
+}
+.leftside h4{
+    color: black;
+    font-size: 25px; 
+    margin-bottom: 10px;
+    position: relative;
+}
+.leftside h3{
+    margin: 10px 0px 10px 0px;
+    font-size: 20px;
+    color: blue;
+}
+.leftside .btn1{
+    text-decoration: none;
+    font-weight: 900;
+    text-align: center;
+    padding: 12px 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px 0px 20px 0px;
+    color: black;
+    letter-spacing: 0;
+    background-image: linear-gradient(to right,#4458dc 0%,#854fee 100%);
+    border: double 2px transparent;
+    box-shadow: 0 10px 30px rgba(118,85,225,.3);
+    border-color: red;
+    font-size: 30px;
+}
+.btn1{
+    padding: 50px;
+    margin: 50px;
+}
+.leftside .btn:hover{
+    border: 2px solid #4458dc; 
+    color: #222;
+    background-color: #fff;
+    box-shadow: none;
+    background-image: none;
+}
+.leftside p{
+    color: blue;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+.rightside{
+border-radius: 100% 0% 100% 0% / 0% 100% 0% 100% ;
+background-color: #e8fbff;
+}
+.rightside img{
+    max-width: 500px;
+    height: auto;
+    border: 2px solid red;
+}
