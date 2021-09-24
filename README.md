@@ -1,1 +1,1 @@
-# saraswatijewellers.github.io
+# goldminejewelry.github.io
